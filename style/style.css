@@ -1,0 +1,62 @@
+select, button{
+    background : #F7F9EE;
+    border : solid 1px;
+    padding : 3px;
+    border-radius : 5px;
+}
+
+img{
+    width: 300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family : Helvetica ;
+    color : #F7F9EE;
+    background-color : #54586E;
+    padding : 0;
+    margin : 0;
+}
+
+#form_register, #inline, #form_profile, #displaySubs, #displayFollowers{
+    display: none;
+}
+
+fieldset {
+    border : 1px solid darkgrey ;
+    margin : 10px ;
+}
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+li {
+    margin-bottom:15px;
+    list-style-type: none;
+}
+.section_messages{
+    background-color : rgb(56, 37, 87);
+}
+
+.section_messages #messages li:nth-child(odd), .section_messages #messages2 li:nth-child(odd){
+    background-color : #54586E;
+}
+
+select {
+    background: #F9F9F9;
+    background-image: none;
+    box-shadow: none;
+    margin: 0;
+    padding-left: 15px;
+    color: #555555;
+    cursor: pointer;
+}
+.findUsers{
+    display: inline;
+}
+.findUsers:hover::after {
+    color: rgb(255, 42, 0);
+}
